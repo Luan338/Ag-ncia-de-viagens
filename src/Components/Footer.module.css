@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Spectral:wght@700&display=swap");
+
+.boxFooter {
+  opacity: 0.4;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paragraph {
+  color: white;
+  font-size: 0.8em;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 490px) {
+  .boxFooter {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+}

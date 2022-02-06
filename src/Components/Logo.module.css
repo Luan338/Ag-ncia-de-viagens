@@ -1,0 +1,20 @@
+.boxLogo {
+  width: 210px;
+  height: 70px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.boxLogo h3 {
+  margin-left: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}

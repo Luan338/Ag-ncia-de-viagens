@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito+Sans&family=Spectral:wght@700&display=swap");
+
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #5454d4;
+  color: white;
+  padding: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  transition: 1.5s all;
+}
+
+.btn:hover {
+  background-color: #c291ed;
+}

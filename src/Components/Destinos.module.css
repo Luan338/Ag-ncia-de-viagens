@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito+Sans&family=Spectral:wght@700&display=swap");
+
+.boxDestinos {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.boxDestinos h1 {
+  margin-right: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  opacity: 0.7;
+  font-size: 5em;
+}
+
+.boxDestinos img {
+  width: 40px;
+  height: 40px;
+}
+
+.boxLandscape {
+  width: 100%;
+}
+
+.boxLandscape img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.boxLandscape {
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  border: 1px solid #eee;
+  display: block;
+  width: 50%;
+  font-size: 1em;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  background: #eee;
+  transition: 0.2s;
+  top: 75px;
+  left: 25%;
+}
+
+.boxLandscape img {
+  margin-top: 100px;
+}
+
+.boxForm {
+  display: flex;
+}
+
+.btn {
+  position: absolute;
+  top: 74px;
+  left: 75%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #5454d4;
+  color: white;
+  padding: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  transition: 1.5s all;
+}
+
+.btn:hover {
+  background-color: #c291ed;
+}
+
+@media (max-width: 470px) {
+  .input {
+    width: 50%;
+    top: 75px;
+    left: 15%;
+  }
+  .btn {
+    top: 74px;
+    left: 65%;
+  }
+  .boxDestinos h1 {
+    font-size: 3em;
+  }
+  .boxDestinos img {
+    width: 20px;
+    height: 20px;
+  }
+}
