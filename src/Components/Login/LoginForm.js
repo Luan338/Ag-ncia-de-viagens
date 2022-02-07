@@ -15,7 +15,7 @@ const LoginForm = () => {
               type= "text"
               name= "email"
               label="Usúario"
-              placeholder= "dog@dog.com"
+              placeholder= "viagem@viagem.com"
               />
               <Input 
               type= "password"
