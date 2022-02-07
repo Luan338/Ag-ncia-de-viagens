@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import { useRef } from 'react'
 import Logo from './Logo';
-
+import '../../src/App.css';
 
 const Header = () => {
     
@@ -18,8 +18,8 @@ const Header = () => {
         <Link className={styles.linkzada} to="/" aria-label="VoandoAlto - Home">
             <Logo />
         </Link>
-        <nav className={styles.navList} ref={navRef}>
-            <ul className={styles.boxList}>
+        <nav className="navList" ref={navRef}>
+            <ul className="boxList">
                 <Link className={styles.list} to="/">Home</Link>
                 <Link className={styles.list} to="/destino">Destinos</Link>
                 <Link className={styles.list} to="/promocao">Promoções</Link>
@@ -29,7 +29,7 @@ const Header = () => {
         <div className={styles.containerMenu}>
             <div className={styles.boxMenuMobile} >
                 <input type="checkbox" id={styles.checkBoxMenu} />
-                <label htmlFor="checkBoxMenu" id={styles.btnMobile} onClick={activeBtn}>
+                <label htmlFor="checkBoxMenu" id="btnMobile" onClick={activeBtn}>
                     <span></span>
                     <span></span>
                     <span></span>
