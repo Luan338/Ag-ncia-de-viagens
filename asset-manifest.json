@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Ag-ncia-de-viagens/static/css/main.6bfc7298.css",
+    "main.js": "/Ag-ncia-de-viagens/static/js/main.dba13ed6.js",
+    "static/media/mar.jpg": "/Ag-ncia-de-viagens/static/media/mar.d92676d98e804e8bebb5.jpg",
+    "static/media/fimdetarde.jpg": "/Ag-ncia-de-viagens/static/media/fimdetarde.174620d9f3b2c6fd1d9d.jpg",
+    "static/media/principal.png": "/Ag-ncia-de-viagens/static/media/principal.8f218d49fe71a60c8a22.png",
+    "static/media/aviao.jpg": "/Ag-ncia-de-viagens/static/media/aviao.52654b6f88f179d8eb4e.jpg",
+    "index.html": "/Ag-ncia-de-viagens/index.html",
+    "main.6bfc7298.css.map": "/Ag-ncia-de-viagens/static/css/main.6bfc7298.css.map",
+    "main.dba13ed6.js.map": "/Ag-ncia-de-viagens/static/js/main.dba13ed6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bfc7298.css",
+    "static/js/main.dba13ed6.js"
+  ]
+}
