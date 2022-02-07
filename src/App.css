@@ -10,3 +10,16 @@
   margin: 0 auto;
   background: linear-gradient(40deg, #1d1d2a 40.96%, #1a1a1e 60%) no-repeat;
 }
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 1s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}

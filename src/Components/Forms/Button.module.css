@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito+Sans&family=Spectral:wght@700&display=swap");
 
 .btn {
+  margin-top: 10px;
   cursor: pointer;
   border-radius: 5px;
   border: none;

@@ -1,0 +1,37 @@
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 115vh;
+  gap: 2rem;
+}
+
+.login::before {
+  width: 90%;
+  display: block;
+  content: "";
+  background: url("../../Img/mar.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.forms {
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+@media (max-width: 40rem) {
+  .login {
+    grid-template-columns: 1fr;
+  }
+  .login::before {
+    display: none;
+  }
+  .forms {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .login {
+    min-height: 80vh;
+  }
+}

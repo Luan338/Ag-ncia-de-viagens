@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Spectral:wght@700&display=swap");
+
+.form {
+  margin-bottom: 2rem;
+}
+
+.perdeu {
+  display: inline-block;
+  color: #666;
+  padding: 0.5rem 0;
+  line-height: 1;
+}
+
+.perder::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: currentColor;
+  display: block;
+}
+
+.cadastro {
+  margin-top: 4rem;
+}
+
+.cadastro p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-size: 1.2em;
+  opacity: 0.7;
+  color: white;
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  background-color: #ddd;
+  width: 3rem;
+  height: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.title {
+  opacity: 0.7;
+  color: white;
+  line-height: 1;
+  font-size: 3rem;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #5454d4;
+  position: absolute;
+  bottom: 5px;
+  left: -5px;
+  border-radius: 0.2rem;
+  z-index: -1;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.5s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.cadastro p {
+  opacity: 0.7;
+  color: white;
+}
