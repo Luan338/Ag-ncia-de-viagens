@@ -12,7 +12,7 @@ const LoginCreate = () => {
       <h1 className={styles.title}>Cadastre-se</h1>
       <form>
         <Input type="text" name="username" placeholder="Apelido"/>
-        <Input type="email" name="email" placeholder="dogs@dogs.com"/>
+        <Input type="email" name="email" placeholder="viagens@viagens.com"/>
         <Input type="password" name="password" placeholder="****************"/>
         <Button>Cadastrar</Button>
       </form>
