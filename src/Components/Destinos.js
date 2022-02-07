@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Destinos.module.css';
 import circle from '../Img/circle.png';
-import paisagem from '../Img/paisagem.png';
+import paisagem from '../Img/aviao.jpg';
 
 const Destinos = () => {
   return (

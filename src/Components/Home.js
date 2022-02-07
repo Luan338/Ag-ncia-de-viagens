@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <section className={styles.container}>
       <div className={styles.contain}>
-        <h1>Agência de viagens</h1>
+        <h1>VoandoAlto</h1>
         <p>A melhor e mais completa agência de viagens do país.</p>
         <div className={styles.boxTriangulo}>
           <img className={styles.triangulo1} src={triangulo} alt="triangulo"/>

@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Destinos from './Components/Destinos';
+import Promocoes from './Components/Promocoes';
 import Login from './Components/Login/Login';
 
 
@@ -16,8 +17,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/destino" element={<Destinos />}/>
-                {/*<Route path="/promocao" element={<Promocao />}/>
-                */}
+                <Route path="/promocao" element={<Promocoes />} />
                 <Route path="/login/*" element={<Login />}/> 
               </Routes> 
             </div> 
