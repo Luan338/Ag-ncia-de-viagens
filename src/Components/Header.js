@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
 import { useRef } from 'react'
 import Logo from './Logo';
@@ -19,7 +19,7 @@ const Header = () => {
             <Logo />
         </Link>
         <nav className="navList" ref={navRef}>
-            <ul className="boxList">
+            <ul className="boxList"  onClick={activeBtn}>
                 <Link className={styles.list} to="/">Home</Link>
                 <Link className={styles.list} to="/destino">Destinos</Link>
                 <Link className={styles.list} to="/promocao">Promoções</Link>
@@ -28,7 +28,6 @@ const Header = () => {
         </nav>
         <div className={styles.containerMenu}>
             <div className={styles.boxMenuMobile} >
-                <input type="checkbox" id={styles.checkBoxMenu} />
                 <label htmlFor="checkBoxMenu" id="btnMobile" onClick={activeBtn}>
                     <span></span>
                     <span></span>
