@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Spectral:wght@700&display=swap");
 
 .boxFooter {
-  opacity: 0.4;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -10,7 +9,7 @@
 }
 
 .paragraph {
-  color: white;
+  color: rgb(161, 160, 160);
   font-size: 0.8em;
   font-family: "Montserrat", sans-serif;
 }

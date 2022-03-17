@@ -3,9 +3,9 @@ import triangulo from '../../Img/triangulo.png';
 import principal from '../../Img/principal.png';
 import grafico from '../../Img/grafico.png';
 import circle from '../../Img/circle.png';
-import styles from './Home.module.css';
+import styles from './QuemSomos.module.css';
 
-const Home = () => {
+const QuemSomos = () => {
   return(
     <>
     <section className={`${styles.container} animeLeft`}>
@@ -36,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default QuemSomos;

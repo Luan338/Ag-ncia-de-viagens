@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito+Sans&family=Spectral:wght@700&display=swap");
+
+.boxLandscape {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.boxCard {
+  top: 6rem;
+  position: relative;
+  width: 100%;
+}
+
+.boxLandscape img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.boxLandscape {
+  position: relative;
+}
+
+@media (max-width: 470px) {
+  .boxDestinos img {
+    width: 20px;
+    height: 20px;
+  }
+}

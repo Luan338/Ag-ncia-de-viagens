@@ -8,7 +8,12 @@
   max-width: 1900px;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(40deg, #1d1d2a 40.96%, #1a1a1e 60%) no-repeat;
+  background-color: rgba(255, 255, 255 0.5);
+  /* background: linear-gradient(40deg, #1d1d2a 40.96%, #1a1a1e 60%) no-repeat; */
+}
+
+.container {
+  padding-top: 3.2rem;
 }
 
 .animeLeft {
@@ -32,7 +37,7 @@
 }
 
 .navList {
-  width: 600px;
+  width: 300px;
 }
 
 .animeLeft {
@@ -56,7 +61,7 @@
     width: 100%;
     height: 0px;
     background-color: #c391ed;
-    top: 70px;
+    top: 50px;
     right: 0%;
     z-index: 1000;
     visibility: hidden;

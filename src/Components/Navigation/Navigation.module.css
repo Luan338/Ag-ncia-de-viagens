@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  background-color: #c490ed;
+  border: none;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.text {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #40046e;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.1rem;
+  transition: 2s ease-in-out;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 555px) {
+  .text {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav {
+    width: 80%;
+  }
+}

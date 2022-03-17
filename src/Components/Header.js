@@ -16,14 +16,12 @@ const Header = () => {
 
   return(
     <header>
-        <Link className={styles.linkzada} to="/" aria-label="VoandoAlto - Home">
+        <Link className={styles.linkzada} to="/voos" aria-label="VoandoAlto - Home">
             <Logo />
         </Link>
         <nav className="navList" ref={navRef}>
             <ul className="boxList"  onClick={activeBtn}>
-                <Link className={styles.list} to="/">Home</Link>
-                <Link className={styles.list} to="/destino">Destinos</Link>
-                <Link className={styles.list} to="/promocao">Promoções</Link>
+                <Link className={styles.list} to="/quemsomos">Quem somos?</Link>
                 <Link className={styles.list} to="/login">Logar | Criar</Link>
             </ul>
         </nav>
