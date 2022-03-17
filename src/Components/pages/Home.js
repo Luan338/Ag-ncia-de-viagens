@@ -1,14 +1,14 @@
 import React from 'react';
-import triangulo from '../Img/triangulo.png';
-import principal from '../Img/principal.png';
-import grafico from '../Img/grafico.png';
-import circle from '../Img/circle.png';
+import triangulo from '../../Img/triangulo.png';
+import principal from '../../Img/principal.png';
+import grafico from '../../Img/grafico.png';
+import circle from '../../Img/circle.png';
 import styles from './Home.module.css';
 
 const Home = () => {
   return(
     <>
-    <section className={styles.container}>
+    <section className={`${styles.container} animeLeft`}>
       <div className={styles.contain}>
         <h1>VoandoAlto</h1>
         <p>A melhor e mais completa agência de viagens do país.</p>

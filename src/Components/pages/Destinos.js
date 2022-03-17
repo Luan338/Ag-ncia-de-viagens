@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Destinos.module.css';
-import circle from '../Img/circle.png';
-import paisagem from '../Img/aviao.jpg';
+import circle from '../../Img/circle.png';
+import paisagem from '../../Img/aviao.jpg';
 
 const Destinos = () => {
   return (
-  <>
+  <section className="animeLeft">
     <div className={styles.boxDestinos}>
       <h1>Destinos</h1>
       <img src={circle} alt="circulo"/>
@@ -17,7 +17,7 @@ const Destinos = () => {
       </div>
       <img src={paisagem} alt="paisagem"/>
     </div>
-  </>
+  </section>
   )
 };
 

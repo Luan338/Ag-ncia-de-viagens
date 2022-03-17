@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import { useRef } from 'react'
 import Logo from './Logo';
@@ -12,6 +12,7 @@ const Header = () => {
     function activeBtn(){
      navRef.current.classList.toggle('active');
     }
+    console.log(activeBtn)
 
   return(
     <header>
@@ -23,7 +24,7 @@ const Header = () => {
                 <Link className={styles.list} to="/">Home</Link>
                 <Link className={styles.list} to="/destino">Destinos</Link>
                 <Link className={styles.list} to="/promocao">Promoções</Link>
-                <Link className={styles.list} to="/login">Login | Criar</Link>
+                <Link className={styles.list} to="/login">Logar | Criar</Link>
             </ul>
         </nav>
         <div className={styles.containerMenu}>

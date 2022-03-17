@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Promocoes.module.css';
-import PorDoSol from '../Img/fimdetarde.jpg';
-import Button from '../Components/Forms/Button';
+import PorDoSol from '../../Img/fimdetarde.jpg';
+import Button from '../Forms/Button';
 
 const Promocoes = () => {
 
@@ -12,7 +12,7 @@ const Promocoes = () => {
     }
     
   return(
-    <>
+    <section className="animeLeft">
         <div className={styles.contain}>
             <h1>Promoções</h1>
         </div>
@@ -24,7 +24,7 @@ const Promocoes = () => {
                 <Button onClick={handleClick}>Solicitar Cupom</Button>
             </div>
         </div>
-    </> 
+    </section> 
   );
 };
 
