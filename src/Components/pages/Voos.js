@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Voos.module.css';
-import aviao from '../../Img/aviao.jpg';
 import Card from '../Card/Card';
 
 const Voos = () => {
@@ -17,7 +16,9 @@ const Voos = () => {
           passenger="Passageiros"
           />
         </div>
-        <img src={aviao} alt="paisagem"/>
+        <div className={styles.boxs}>
+
+        </div>
       </div>
   </section>
   )
