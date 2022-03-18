@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   min-height: 115vh;
   gap: 2rem;
+  background-color: rgb(250, 249, 249);
 }
 
 .login::before {

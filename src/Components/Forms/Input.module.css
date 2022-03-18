@@ -17,7 +17,7 @@
 .input:focus,
 .input:hover {
   outline: none;
-  border-color: #5454d4;
+  border-color: #40046e;
   background: white;
-  box-shadow: 0 0 0 3px #5454d4;
+  box-shadow: 0 0 0 3px #40046e;
 }

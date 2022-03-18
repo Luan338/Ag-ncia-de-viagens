@@ -6,7 +6,6 @@
   height: 5rem;
   background-color: #c490ed;
   border: none;
-  border-radius: 0px 0px 40px 40px;
 }
 
 .nav {
@@ -27,6 +26,12 @@
 
 .text:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 750px) {
+  .container {
+    border-radius: 0px;
+  }
 }
 
 @media (max-width: 555px) {

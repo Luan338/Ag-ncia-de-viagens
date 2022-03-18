@@ -17,7 +17,6 @@ const Voos = () => {
           />
         </div>
         <div className={styles.boxs}>
-
         </div>
       </div>
   </section>

@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito+Sans&family=Spectral:wght@700&display=swap");
+.groupPrincipal {
+  background-color: rgba(248, 246, 246, 0.5);
+}
 
 .container {
   width: 92%;
@@ -14,9 +16,10 @@
 }
 
 .contain h1 {
+  font-weight: bolder;
   opacity: 0.7;
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: #40046e;
   line-height: 1;
   font-size: 3em;
   margin: 1rem 0;
@@ -29,7 +32,7 @@
   display: block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #5454d4;
+  background-color: #c490ed;
   position: absolute;
   bottom: 5px;
   left: -5px;
@@ -39,7 +42,7 @@
 
 .contain p {
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: #40046e;
   opacity: 0.7;
   font-size: 1.5em;
 }
@@ -50,8 +53,8 @@
   width: 50%;
 }
 
-.principal img {
-  width: 75%;
+.imgEu {
+  width: 70%;
 }
 
 .boxTriangulo {
@@ -144,7 +147,7 @@
   }
 
   .principal {
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
     justify-content: center;
   }
@@ -160,8 +163,17 @@
   }
 }
 
+@media (max-width: 450px) {
+  .imgEu {
+    width: 20rem;
+  }
+}
+
 @media (max-width: 330px) {
   .titleContact h2 {
     text-align: center;
+  }
+  .imgEu {
+    width: 80%;
   }
 }
