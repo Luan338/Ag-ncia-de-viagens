@@ -1,76 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@400;900&family=Nunito+Sans&family=Quintessential&family=Spectral:wght@700&display=swap");
 
 .contain {
-  padding-top: 50px;
+  padding: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contain h1 {
-  opacity: 0.7;
-  font-family: "Nunito Sans", sans-serif;
-  color: white;
-  line-height: 1;
-  font-size: 3em;
-  position: relative;
-  z-index: 1;
-}
-
-.contain h1::after {
-  content: "";
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #5454d4;
-  position: absolute;
-  bottom: 5px;
-  left: -5px;
-  border-radius: 0.2rem;
-  z-index: -1;
+.subTitle {
+  padding: 1.5rem;
+  font-size: 1.6em;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #40046e;
 }
 
 .boxDesconto {
-  position: relative;
-}
-
-.imgPaz {
-  margin-top: 40px;
+  margin-bottom: 15rem;
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
-}
-
-.card {
-  width: 40%;
-  height: 300px;
-  top: 100px;
-  left: 150px;
-  position: absolute;
-  background-color: #1d1d2a;
-  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 
-.card p {
-  margin-top: 15px;
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  color: white;
-  line-height: 1;
-  font-size: 2em;
-  position: relative;
-  font-family: "Quintessential", cursive;
+@media (max-width: 1000px) {
+  .boxDesconto {
+    margin-bottom: 10rem;
+    flex-direction: column;
+    height: 40rem;
+  }
 }
 
-@media (max-width: 750px) {
-  .card {
+@media (max-width: 650px) {
+  .contain {
+    margin-top: 3rem;
+    padding: 0px;
     width: 100%;
-    height: 300px;
-    left: 0px;
   }
 }

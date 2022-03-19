@@ -1,28 +1,29 @@
-import React, { useState } from 'react';
+import React from 'react';
+import CardPromo from '../CardPromo/CardPromo';
 import styles from './Promocoes.module.css';
-import PorDoSol from '../../Img/fimdetarde.jpg';
-import Button from '../Forms/Button';
 
 const Promocoes = () => {
-
-    const [cupom, setCupom] = useState();
-
-    function handleClick(){
-        setCupom(Math.floor(Math.random() * (20000 - 999))) ;
-    }
     
   return(
     <section className="animeLeft">
         <div className={styles.contain}>
-            <h1>Promoções</h1>
+            <h2 className={styles.subTitle}>OS MELHORES PACOTES PARA 2022 EM ATÉ 12X</h2>
         </div>
         <div className={styles.boxDesconto}>
-            <img className={styles.imgPaz} src={PorDoSol} alt="Fim de tarde"/>
-            <div className={styles.card}>
-                <p>Cupom com 20% de desconto para qualquer viagem nacional.</p>
-                <p>{cupom}</p>
-                <Button onClick={handleClick}>Solicitar Cupom</Button>
-            </div>
+            <CardPromo 
+            title="Pacotes"
+            subTitle="Promo 2022"
+            paragraph="3 diárias a partir de"
+            price="R$ 200,00"
+            children="Ver mais"
+            />
+            <CardPromo 
+            title="Hotéis"
+            subTitle="Promo 2022"
+            paragraph="3 diárias a partir de"
+            price="R$ 250,00"
+            children="Ver mais"
+            />
         </div>
     </section> 
   );

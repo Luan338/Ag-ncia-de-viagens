@@ -14,6 +14,11 @@ const Voos = () => {
           where="Para onde você vai ?"
           date="Escolha as datas"
           passenger="Passageiros"
+          cardStyle={styles.card}
+          boxForms={styles.boxForms}
+          formsDifference={styles.formsDifference}
+          forms={styles.forms}
+          boxBtn={styles.boxBtn}
           />
         </div>
         <div className={styles.boxs}>
