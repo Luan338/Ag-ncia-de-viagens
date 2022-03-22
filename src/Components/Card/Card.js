@@ -8,7 +8,7 @@ const Card = ({title, textLabel, textBtn, where, date, passenger, cardStyle, box
       <div className={boxForms}>
         <form className={formsDifference}>
           <label for="saida" >{textLabel}</label>
-          <input id="saida" type="text" name="text" />
+          <input id="saida" type="text" name="text" autoFocus/>
         </form> 
         <form className={forms}>
           <label for="onde">{where}</label>

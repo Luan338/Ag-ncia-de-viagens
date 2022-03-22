@@ -118,6 +118,13 @@
   font-size: 1em;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    width: 92%;
+    height: 50vh;
+  }
+}
+
 @media (max-width: 910px) {
   .contain h1 {
     font-size: 2em;
@@ -146,6 +153,10 @@
     width: 90%;
   }
 
+  .imgEu {
+    width: 300px;
+  }
+
   .principal {
     margin-top: 0px;
     width: 100%;
@@ -160,12 +171,6 @@
 
   .titleContact h2 {
     margin-right: 0px;
-  }
-}
-
-@media (max-width: 450px) {
-  .imgEu {
-    width: 20rem;
   }
 }
 
